@@ -7,9 +7,15 @@ public class ArrayUtil {
 	*   Precondition: arr.length > 0.
 	*   Postcondition: The elements of arr have been reversed
 	*   @param arr the array to manipulate
+	 * @return 
 	*/
-	public static void reverseArray(int[] arr){
+	public static int[] reverseArray(int[] arr){
 		/* code goes here */
+		int[] finalArr = new int[arr.length];
+		for (int i = arr.length - 1; i >= 0; i--) {
+			
+		}
+		return finalArr;
 	}
 }
 
